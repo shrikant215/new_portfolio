@@ -1,0 +1,127 @@
+@import '../../Allcss.css';
+
+.container{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+/* margin-top: 49px; */
+z-index: 1;
+margin-left: 13%;
+margin-right: 10%;
+height: 100vh;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+        9055deg,
+         rgba(255, 255, 255, 1)70%,
+          rgba(255, 255, 255, 0)120%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.discription{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: var(--font-roboto);
+    margin-bottom: 22px;
+
+}
+.discriptionnn{
+   font-size: 19px;
+   font-weight: 400;
+   color: #a59eeb;
+   line-height: 28px;
+   gap: 12px;
+   display: flex;
+   margin-bottom: 22px;
+}
+divv{
+    color: #995bfe;
+}
+
+.contactbtn{
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.toBlur{
+    position: absolute;
+    width: 50px;
+    height: 50vh;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur{
+    position: absolute;
+    width: 70px;
+    height: 50vh;
+    min-width: 350px;
+    min-width: 350vw;
+    top: 246px;
+    right: -25px;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+    .title{
+        /* padding-top: 10rem; */
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+         }
+    .discription{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 16px; 
+        line-height: 30px;
+    } 
+    .discriptionnn{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        gap: 12px;
+        display: flex;
+        margin-bottom: 22px;
+     }    
+
+}

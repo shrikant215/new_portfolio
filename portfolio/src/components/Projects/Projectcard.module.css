@@ -1,0 +1,127 @@
+@import '../../Allcss.css';
+
+/* .cotainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.description{
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.skills{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+.skill{
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+
+}
+.links{
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 1px 22px;
+} */
+
+card{
+    width: 330px;
+    height: 490px;
+    background-color: var(--color-dark);
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow:  0 0 12px 4px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    padding: 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
+}
+img{
+    width: 100%;
+    height: 180px;
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+}
+tags{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+    align-items: center;
+}
+details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px 2px;
+}
+members{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+tag{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-text);
+    background-color: #0e0922;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+.discrioption{
+    font-weight: 400;
+    color: var(--color-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical ;
+    display: -webkit-box;
+    margin-top: 8px;
+    max-width: 100%;
+}
