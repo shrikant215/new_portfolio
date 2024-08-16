@@ -14,7 +14,7 @@ function Hero() {
         <p className={styles.discriptionnn}>
         I am a motivated and versatile individual, always eager to take on new challenges.<br/> With a passion for learning I am dedicated to delivering high-quality results.<br/> With a positive attitude and a growth mindset, I am ready to make a meaningful <br/> contribution and achieve great things. 
         </p>
-        <a href='https://bronze-gussy-32.tiiny.site' className={styles.contactbtn}>Check Resume</a>
+        <a href='https://orange-bessie-79.tiiny.site' className={styles.contactbtn}>Check Resume</a>
       </div>
       {/* <img src={getImageUrl("Hero/heroimage.png")} alt='hero image of me' /> */}
       <div className={styles.toBlur} />
