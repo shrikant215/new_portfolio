@@ -7,6 +7,7 @@
     position: relative;
     z-index: 1;
     align-items: center;
+    /* height: 20rem; */
 }
 .skillContainer{
     width: 100%;
@@ -15,6 +16,7 @@
     margin-top: 50px;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 10rem;
 }
 .title{
     margin-top: 100px;

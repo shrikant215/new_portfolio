@@ -11,6 +11,17 @@ function About() {
    
    <div>
     <ul className={styles.aboutItems}>
+    <li className={styles.aboutItem}>
+            <div className={styles.aboutItemText}>
+                {/* <MenuIcon/> */}
+                <h3>Java full-stack development course</h3>
+                <p>
+                Apponix academy hubblli, karnataka
+                <br/>
+               <span>Completed 2023</span> 
+                </p>
+            </div>
+        </li>
         <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
                 {/* <MenuIcon/> */}
@@ -30,17 +41,6 @@ function About() {
                 Science in BLDE college Jamkhandi, Karnataka
                 <br/>
                <span>Completed 2019</span> 
-                </p>
-            </div>
-        </li>
-        <li className={styles.aboutItem}>
-            <div className={styles.aboutItemText}>
-            {/* <MenuIcon/> */}
-                <h3>SSLC - 10th</h3>
-                <p>
-                Gnyan Gangotri High School jamkhandi, Karnataka
-                <br/>
-               <span>Completed 2017</span> 
                 </p>
             </div>
         </li>

@@ -1,35 +1,21 @@
 import React from 'react'
 import styles from './Projectcard.module.css';
 
-function Projectcard({project: {title,description,skills,image}}) {
+function Projectcard({project, setOpenModal}) {
   return (
-    // <div >
-    //    <div className={styles.cotainer}>
-    //         <h3 className={styles.title}>{title}</h3>
-    //         <p className={styles.description}>{description}</p>
-    //         <ul className={styles.skills}>
-    //           {skills.map((skill, id) => (
-    //             <li key={id} className={styles.skill}>{skill}</li>
-    //           ))}
-    //         </ul>
-    //         <div className={styles.links}>
-    //           <a className={styles.link}>Demo</a>
-    //           <a className={styles.link}>Source</a>
-    //         </div>
-    //       </div>
-    // </div>
-    <card>
-     <img src={image} />
+
+    <card onClick={() => setOpenModal({state: true, project:project })}>
+     <img src={project.image} />
      <tags>
       {
-        skills.map((skill, id)=> (
+        project.skills.map((skill, id)=> (
           <tag key={id}>{skill}</tag>
         ))
       }
      </tags>
      <div className={styles.details}>
-      <div className={styles.title}>{title}</div>
-      <div className={styles.discrioption}>{description}</div>
+      <div className={styles.title}>{project.title}</div>
+      <div className={styles.discrioption}>{project.description}</div>
      </div>
      <members></members>
     </card>

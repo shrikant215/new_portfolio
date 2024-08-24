@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import styles from './App.module.css'
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -8,19 +9,36 @@ import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
-
+import ProjectD from './components/ProjectDetails/Projectdetails';
 
 function App() {
+
+  const [openModal, setOpenModal] = useState({state: false, project: null});
+  console.log("openModal",openModal)
   return (
    <div className={styles.App}>
+
     <Navbar className={styles.sticky} />
+    <div className={styles.body}>
     <Hero/>
+    <div className={styles.wrapper}>
     <Skills/>
+    </div>
+
+    <Projects setOpenModal={setOpenModal} openModal={openModal} />
+    <div className={styles.wrapper}>
+
     <About/>
-    <Projects/>
+
     <Experience/>
-    {/* <Contact/> */}
+
+    <Contact/>
+    </div>
+
     <Footer/>
+
+    {openModal.state && <ProjectD openModal={openModal} setOpenModal={setOpenModal} /> }
+    </div>
    </div>
   );
 }

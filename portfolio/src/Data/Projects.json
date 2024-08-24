@@ -1,21 +1,36 @@
 [
+    
+    {
+        "title": "Podcast web",
+        "image":"https://blog.podbean.com/wp-content/uploads/2021/09/main-blog-graphic.png",
+        "description": "This is a web application for streaming podvibe with the following features: User authentication Podcast search functionality Popular podcasts displayed on the main dashboard Admin panel for creating and adding new podcasts Favourite Podcasts Pause podcasts and come back play at same time Getting Started To use the application, simply create an account and log in. From there, you can search for podcasts, view popular podcasts on the main dashboard, and listen to podcasts. Admin users can access the admin panel to create and add new podcasts, which will be displayed on the main dashboard.",
+        "skills": ["React","Express","Node", "MongoDB", "Firebase","GoogleAuth"],
+        "github": "https://github.com/shrikant215/new_podvibe",
+        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
+    },
     {
         "title": "Zomato clone",
         "image":"https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/news16787.jpg",
         "description": "Designed and developed a Zomato clone web application using the MERN stack. Implemented key features such as user authentication, restaurant search, menu browsing, ordering, and payment processing. Integrated Google Maps API for location-based services and enhanced user experience. Conducted thorough testing and debugging to ensure functionality and security. Collaborated with a team to gather requirements and deliver a high-quality product meeting client specifications and deadlines.",
-        "skills": ["React","Express","Node", "MongoDB"]
+        "skills": ["React","Express","Node", "MongoDB","Material UI"],
+   "github": "https://github.com/shrikant215/new_podvibe",
+        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
     },
     {
         "title": "Quiz Application",
         "image": "https://1.bp.blogspot.com/--N26aRZdGGM/X3w1K1Ua5aI/AAAAAAAAA6U/CAW__gnZGAwwhtESQ8nIaM5e-vBrXRhzwCLcBGAsYHQ/s1280/Create%2Ba%2BQuiz%2BApp%2Bwith%2BTimer%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp",
         "description": "Developed a user-friendly quiz application from scratch using the MERN (MongoDB, Express.js, React, Node.js) stack. Implemented essential features like scoring, time limits, and dynamic question generation to enhance user engagement. Conducted comprehensive testing and debugging to ensure seamless performance across different devices. Collaborated closely with stakeholders to gather requirements and delivered a polished product on time.",
-        "skills": ["React","Express","Node", "MongoDB"]
+        "skills": ["React","Express","Node", "MongoDB"],
+        "github": "https://github.com/shrikant215/quiz_app",
+        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
     },
     {
         "title": "Tourist web",
         "image":"https://skift.com/wp-content/uploads/2022/06/Italy-Frame.png",
         "description": "this is project made to learn the latest",
-        "skills": ["React","Express","Node", "MongoDB"]
+        "skills": ["HTML","CSS","Javascript"],
+        "github": "https://github.com/shrikant215/touristWebsite",
+        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
     }
     
 ]

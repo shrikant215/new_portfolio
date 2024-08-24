@@ -48,6 +48,10 @@ export const skills = [
             {
                 name: "MongoDB",
                 image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+            },
+            {
+                name: "Firebase",
+                image: "https://w7.pngwing.com/pngs/398/821/png-transparent-firebase-google-google-i-o-icon.png"
             }
         
 
