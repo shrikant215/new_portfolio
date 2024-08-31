@@ -43,7 +43,7 @@ gap: 50px;
     border-radius: 20px;
     list-style: none;
     padding: 25px;
-    background-image: linear-gradient(90deg, #8a53e9, rgba(255,255,255,0)100%);
+    background-image: linear-gradient(90deg, #1d468c, rgba(255,255,255,0)100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;

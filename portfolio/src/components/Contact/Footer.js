@@ -4,6 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import style from './Contact.module.css';  // Import the CSS file
+import { Link } from "react-scroll";
 
 function Footer() {
   return (
@@ -13,11 +14,11 @@ function Footer() {
       <div className={style.footerWrapper}>
         <div className={style.logo}>Shrikant Jakanur</div>
         <nav className={style.nav}>
-          <a className={style.navLink} href="#about">About</a>
-          <a className={style.navLink} href="#skills">Skills</a>
-          <a className={style.navLink} href="#experience">Experience</a>
-          <a className={style.navLink} href="#projects">Projects</a>
-          <a className={style.navLink} href="#education">Education</a>
+          <Link className={style.navLink} to="about" smooth={true} duration={500}>About</Link>
+          <Link className={style.navLink} to="skills" smooth={true} duration={500}>Skills</Link>
+          <Link className={style.navLink} to="experience" smooth={true} duration={500}>Experience</Link>
+          <Link className={style.navLink} to="projects" smooth={true} duration={500}>Projects</Link>
+          <Link className={style.navLink} to="education" smooth={true} duration={500}>Education</Link>
         </nav>
         <div className={style.socialMediaIcons}>
           <a className={style.socialMediaIcon} href="https://facebook.com" target="display"><FacebookIcon /></a>

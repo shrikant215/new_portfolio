@@ -4,6 +4,7 @@ import styles from "./Navbarrrr.module.css";
 import {DiCssdeck} from "react-icons/di"
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from "react-scroll";
 
 
 function Navbar() {
@@ -23,11 +24,11 @@ function Navbar() {
                         )}
                         </div>
         <div className={`${styles.navItems} ${menuOpen && styles.menuOpenn}`} onClick={()=>setMenuOpen(false)}>
-          <a className={styles.aLinks} href="#about">About</a>
-          <a className={styles.aLinks} href="#skills">Skills</a>
-          <a className={styles.aLinks} href="#education">Eduction</a>
-          <a className={styles.aLinks} href="#projects">Project</a>
-          <a className={styles.aLinks} href="#experience">Experience</a>
+          <Link className={styles.aLinks} to="about" smooth={true} duration={500}>About</Link>
+          <Link className={styles.aLinks} to="skills" smooth={true} duration={500} >Skills</Link>
+          <Link className={styles.aLinks} to="projects" smooth={true} duration={500} >Project</Link>
+          <Link className={styles.aLinks} to="education" smooth={true} duration={500} >Eduction</Link>
+          <Link className={styles.aLinks} to="experience" smooth={true} duration={500} >Experience</Link>
         </div>
         </menu>
         <div className={styles.buttoncontainer}>
