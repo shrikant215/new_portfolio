@@ -107,6 +107,8 @@ divv{
     order: 2;
     justify-content: end;
     gap: 12px;
+    /* transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1); */
+    cursor: pointer;
     @media (max-width: 960px) {
         order: 1;
         justify-content: center;
@@ -119,14 +121,20 @@ divv{
       }
 }
 
+/* .heroRightContainer:hover{
+  transform: scale(1.05);
+} */
+
 .imagesss{
     position: relative;
     width: 100%;
     height: 100%;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 50%;
     border: 2px solid var(--primary1);
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
   
     @media (max-width: 768px) {
       max-width: 400px;
@@ -137,6 +145,9 @@ divv{
       max-width: 280px;
       max-height: 280px;
     }
+}
+.imagesss:hover{
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 830px) {

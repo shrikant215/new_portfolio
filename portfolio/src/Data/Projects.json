@@ -13,8 +13,8 @@
         "image":"https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/news16787.jpg",
         "description": "Designed and developed a Zomato clone web application using the MERN stack. Implemented key features such as user authentication, restaurant search, menu browsing, ordering, and payment processing. Integrated Google Maps API for location-based services and enhanced user experience. Conducted thorough testing and debugging to ensure functionality and security. Collaborated with a team to gather requirements and deliver a high-quality product meeting client specifications and deadlines.",
         "skills": ["React","Express","Node", "MongoDB","Material UI"],
-   "github": "https://github.com/shrikant215/new_podvibe",
-        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
+        "github": "https://github.com/shrikant215/zomatoWebApp",
+        "webapp": ""
     },
     {
         "title": "Quiz Application",
@@ -22,7 +22,7 @@
         "description": "Developed a user-friendly quiz application from scratch using the MERN (MongoDB, Express.js, React, Node.js) stack. Implemented essential features like scoring, time limits, and dynamic question generation to enhance user engagement. Conducted comprehensive testing and debugging to ensure seamless performance across different devices. Collaborated closely with stakeholders to gather requirements and delivered a polished product on time.",
         "skills": ["React","Express","Node", "MongoDB"],
         "github": "https://github.com/shrikant215/quiz_app",
-        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
+        "webapp": "https://gentle-puppy-12abfb.netlify.app/"
     },
     {
         "title": "Tourist web",
@@ -30,7 +30,7 @@
         "description": "this is project made to learn the latest",
         "skills": ["HTML","CSS","Javascript"],
         "github": "https://github.com/shrikant215/touristWebsite",
-        "webapp": "https://podvibe-srjk-91bde6.netlify.app"
+        "webapp": ""
     }
     
 ]

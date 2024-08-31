@@ -1,57 +1,71 @@
 @import '../../Allcss.css';
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
     z-index: 1;
-    align-items: center;
 }
 
-.skillContainer{
+.skillContainer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
     justify-content: center;
     gap: 30px;
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
 }
-.title{
+
+.title {
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    /* margin-right: 70rem; */
     display: flex;
     justify-content: center;
     color: var(--text1);
-
 }
-.skills{
+
+.skills {
     width: 100%;
     max-width: 500px;
     background-color: #0e0922;
     border: 0.4px solid var(--text3);
     border-radius: 16px;
     padding: 18px 36px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.skillsTitle{
+
+.skills:hover {
+    transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.skillsTitle {
     font-size: 28px;
     font-weight: 600;
     color: var(--text);
     margin-bottom: 12px;
     text-align: center;
 }
-.skillsList{
+
+.skillsList {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 20px;
 }
-.skillsItems{
+
+.skillsItems {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -62,12 +76,19 @@
     border: 1px solid var(--text2);
     padding: 12px 16px;
     font-weight: 400;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-.skillsImage{
+
+.skillsItems:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.skillsImage {
     height: 24px;
     width: 24px;
-    mix-blend-mode:hard-light;
-    background-color:transparent;
+    mix-blend-mode: hard-light;
+    background-color: transparent;
     border-radius: 0;
-
 }

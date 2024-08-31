@@ -10,6 +10,7 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import ProjectD from './components/ProjectDetails/Projectdetails';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
    <div className={styles.App}>
 
     <Navbar className={styles.sticky} />
+    <ParticlesBackground/>
     <div className={styles.body}>
     <Hero/>
     <div className={styles.wrapper}>
@@ -32,7 +34,7 @@ function App() {
 
     <Experience/>
 
-    <Contact/>
+    {/* <Contact/> */}
     </div>
 
     <Footer/>

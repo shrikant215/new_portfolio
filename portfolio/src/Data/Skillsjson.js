@@ -82,7 +82,7 @@ export const skills = [
     }
 ];
 
-export const experience = [
+export const experiences = [
     {
         id: 0,
         img: "https://media.licdn.com/dms/image/C560BAQGpHp4rqq6bZw/company-logo_200_200/0/1630598715002?e=2147483647&v=beta&t=uTcYqQlniePnKtkpBl7z7QGfZWPT8SQFnnLpfrMCs7A",
@@ -96,5 +96,6 @@ export const experience = [
             "Node JS",
             "Express Js"
         ]
-    }
+    },
+    
 ];

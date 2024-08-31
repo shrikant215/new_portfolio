@@ -15,7 +15,13 @@ function Hero() {
         <p className={styles.discriptionnn}>
         I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. 
         </p>
-        <button href='https://orange-bessie-79.tiiny.site' className={styles.contactbtn}>Check Resume</button>
+        {/* <button href='https://orange-bessie-79.tiiny.site' className={styles.contactbtn}>Check Resume</button> */}
+        <button 
+  onClick={() => window.location.href = 'https://orange-bessie-79.tiiny.site'} 
+  className={styles.contactbtn}
+>
+  Check Resume
+</button>
       </div>
       {/* <img src={getImageUrl("Hero/heroimage.png")} alt='hero image of me' /> */}
 
