@@ -78,7 +78,7 @@ const ContactTitle = styled.div`
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid gray;
   outline: none;
   font-size: 18px;
   color: white;
@@ -92,14 +92,14 @@ const ContactInput = styled.input`
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid gray};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: gray;
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+  border: 1px solid gray;
   }
 `
 
@@ -115,7 +115,7 @@ const ContactButton = styled.input`
   margin-top: 2px;
   border-radius: 12px;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
@@ -131,7 +131,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_d2vr5kn', 'template_aidwz2n', form.current, 'SybVGsYS52j2TfLbi')
+    console.log("working")
+    emailjs.sendForm('service_d2vr5kn', 'template_pyny5jn', form.current, '9jIede2YbfbMaPgdc')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -143,7 +144,7 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id='contact'>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out!</Desc>

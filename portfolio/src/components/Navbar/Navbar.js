@@ -5,6 +5,7 @@ import {DiCssdeck} from "react-icons/di"
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from "react-scroll";
+import Logo from '../images/portfolioicon.png'
 
 
 function Navbar() {
@@ -13,7 +14,8 @@ function Navbar() {
     <nav className={`${styles.nav} ${styles.navbar}`}>
       <div className={styles.navConatiner}>
         <div className={styles.navlogo} to='/'>
-            <DiCssdeck size='3rem' /><span>Portfolio</span>
+            {/* <DiCssdeck size='3rem' /> */}
+           <img src={Logo} sizes="3rem" style={{backgroundColor: 'transparent'}} />
         </div>
         <menu className={styles.mobileIcon} >
             <div className={styles.hidemenubtn}>
@@ -29,6 +31,7 @@ function Navbar() {
           <Link className={styles.aLinks} to="projects" smooth={true} duration={500} >Project</Link>
           <Link className={styles.aLinks} to="education" smooth={true} duration={500} >Eduction</Link>
           <Link className={styles.aLinks} to="experience" smooth={true} duration={500} >Experience</Link>
+          <Link className={styles.aLinks} to="contact" smooth={true} duration={500} >Contact</Link>
         </div>
         </menu>
         <div className={styles.buttoncontainer}>

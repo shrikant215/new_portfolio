@@ -50,10 +50,10 @@
 }
 
 .experienceDese{
-    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #C8CFD8;
     text-align: center;
-    max-width: 600px;
-    color: var(--text);
 }
 
 @media (max-width: 768px) {
@@ -72,4 +72,5 @@
     align-items: center;
     justify-content: center;
     gap: 12px;
+    
 }

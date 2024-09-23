@@ -9,8 +9,22 @@
     z-index: 1;
 }
 
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disc{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #C8CFD8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .skillContainer {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -18,6 +32,7 @@
     gap: 30px;
     margin-bottom: 5rem;
 }
+
 
 .title {
     font-size: 35px;

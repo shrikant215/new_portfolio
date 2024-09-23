@@ -11,6 +11,7 @@ import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import ProjectD from './components/ProjectDetails/Projectdetails';
 import ParticleBackground from './particaleBackground';
+import zIndex from '@mui/material/styles/zIndex';
 
 function App() {
 
@@ -34,10 +35,10 @@ function App() {
 
     <Experience/>
 
-    {/* <Contact/> */}
+    <Contact/>
     </div>
 
-    <Footer/>
+    <Footer />
 
     {openModal.state && <ProjectD openModal={openModal} setOpenModal={setOpenModal} /> }
     </div>

@@ -19,6 +19,7 @@ function Footer() {
           <Link className={style.navLink} to="experience" smooth={true} duration={500}>Experience</Link>
           <Link className={style.navLink} to="projects" smooth={true} duration={500}>Projects</Link>
           <Link className={style.navLink} to="education" smooth={true} duration={500}>Education</Link>
+          <Link className={style.navLink} to="contact" smooth={true} duration={500}>Contact</Link>
         </nav>
         <div className={style.socialMediaIcons}>
           <a className={style.socialMediaIcon} href="https://facebook.com" target="display"><FacebookIcon /></a>
