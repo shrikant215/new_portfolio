@@ -1,5 +1,4 @@
 import React from "react";
-import { getImageUrl } from "../../utils/Theams"; // Adjust the path to match your project structure
 import styles from "./Hero.module.css";
 import myImage from "../images/myphoto.jpg";
 function Hero() {
@@ -19,17 +18,15 @@ function Hero() {
           high-quality results. With a positive attitude and a growth mindset, I
           am ready to make a meaningful contribution and achieve great things.
         </p>
-        {/* <button href='https://orange-bessie-79.tiiny.site' className={styles.contactbtn}>Check Resume</button> */}
         <button
           onClick={() =>
-            (window.location.href = "https://orange-bessie-79.tiiny.site")
+            (window.location.href = "https://drive.google.com/file/d/1D_plVAV1bNEXa8NpZNcqhQL4urt5Yq3L/view?usp=drive_link")
           }
           className={styles.contactbtn}
         >
           Check Resume
         </button>
       </div>
-      {/* <img src={getImageUrl("Hero/heroimage.png")} alt='hero image of me' /> */}
 
       <div className={styles.heroRightContainer} id="Right">
         <img src={myImage} className={styles.imagesss} alt="hero-image" />
